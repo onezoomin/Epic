@@ -1,5 +1,5 @@
 <section id="feed" class="feed grid">
-    {{#foreach posts limit="10"}}
+    {{#foreach posts limit="8"}}
         <article class="{{post_class}}{{#if feature_image}} has-image{{/if}}"{{#if feature_image}} style="background-image: url({{#if featured}}{{img_url feature_image size="large"}}{{else}}{{img_url feature_image size="medium"}}{{/if}}
                 ){{/if}}">
             <section class="post--top-content">
